@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== Favicon ===============-->
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+    />
+    <!--=============== Swiper CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!--=============== Boxicons ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== Custom StyleSheet ===============-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>FDelivery</title>
+  </head>
+  <body>
+    <!--=============== Header ===============-->
+    <header class="header">
+      <nav class="navbar">
+        <div class="row d-flex container">
+          <a href="" class="logo d-flex">
+            <img src="./images/logo.jpg" alt="" />
+          </a>
+
+          <ul class="nav-list d-flex">
+            <a href="#">Головна</a>
+            <a href="">Про нас</a>
+            <a href="">Магазин</a>
+            <a href="">Їжа</a>
+            <a href="">Рецепти</a>
+            <a href="">Контакт</a>
+            <span class="close d-flex"><i class="bx bx-x"></i></span>
+          </ul>
+
+          <div class="col d-flex">
+            <form>
+              <input type="search" placeholder="Пошук товару" />
+              <button class="d-flex"><i class="bx bx-search"></i></button>
+            </form>
+            <div class="cart-icon d-flex">
+              <i class="bx bx-shopping-bag"></i>
+              <span>0</span>
+            </div>
+            <a class="btn signin">Увійти</a>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger d-flex">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!--=============== Home ===============-->
+      <div class="home">
+        <div class="row container">
+          <div class="col">
+            <div class="faster">
+              Швидше за все
+              <div class="image d-flex">
+                <img src="./images/french-fries.svg" alt="" />
+              </div>
+            </div>
+            <h1>
+              Отримуйте вашу кухню <br />
+              доставлену прямо до <br />
+              <span class="color">дверей</span>
+            </h1>
+            <p>
+              Їжа, яка доставляється вчасно. Трендовий партнер доставки їжі. Ми доставляємо смачну їжу. Ваш супутник у боротьбі з голодом.
+            </p>
+            <a href="" class="btn">Досліджуйте їжу</a>
+          </div>
+          <div class="col">
+            <img src="./images/delivery-guy.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--=============== SignIn Form ===============-->
+      <div class="wrapper">
+        <form action="" class="form">
+          <h2>УВІЙТИ</h2>
+
+          <div class="control">
+            <label for="">Введіть електронну пошту:</label>
+            <input type="email" placeholder="Введіть Вашу електронну пошту" />
+          </div>
+          <div class="control">
+            <label for="">Пароль:</label>
+            <input type="password" placeholder="Пароль" />
+          </div>
+          <div class="checkbox d-flex">
+            <input type="checkbox" />
+            <span>Запам'ятати мене</span>
+          </div>
+          <button class="btn">Увійти</button>
+          <div class="links">
+            <span>Забули пароль? <a href="">Натисніть тут</a></span>
+            <span>Немає акаунту? <a href="">Створіть один</a></span>
+          </div>
+        </form>
+
+        <div class="close-form">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== Services ===============-->
+    <section class="section services" id="services">
+      <div class="row container">
+        <div class="col">
+          <h2>Чому ми найкращі у нашому місті</h2>
+          <p>
+            Повнозернові продукти і нежирні молочні продукти можуть допомогти знизити ризик серцевих захворювань, підтримуючи нормальний тиск крові.
+          </p>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/meat-icon.svg" alt="" />
+            <h3>
+              Обирайте <br />
+              вашу улюблену <br />
+              їжу
+            </h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/delivery-icon.svg" alt="" />
+            <h3>
+              Отримуйте доставку <br />
+              прямо до <br />
+              дверей
+            </h3>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/phone-icon.svg" alt="" />
+            <h3>
+              У нас є <br />
+              400+ відгуків <br />
+              в нашому додатку
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== About ===============-->
+    <section class="section about" id="about">
+      <div class="row container">
+        <div class="col">
+          <img src="./images/delivery-guy-2.svg" alt="" />
+        </div>
+        <div class="col">
+          <h2>Ознайомтесь з перевагами, які ми пропонуємо</h2>
+          <p>
+            Хороший сервіс означає дружелюбний та гостинний підхід. Власник ресторану має прагнути не лише уникати поганого сервісу, але й забезпечувати високий рівень обслуговування.
+          </p>
+          <div class="d-grid">
+            <div class="card">
+              <img src="./images/car-icon.svg" alt="" />
+              <h4>Безкоштовна доставка</h4>
+              <span>Для замовлень на суму понад 500грн</span>
+            </div>
+            <div class="card">
+              <img src="./images/dollar-icon.svg" alt="" />
+              <h4>Повернення та відшкодування</h4>
+              <span>Гарантія повернення грошей</span>
+            </div>
+            <div class="card">
+              <img src="./images/security-icon.svg" alt="" />
+              <h4>Безпечний платіж</h4>
+              <span>100% безпечні платежі</span>
+            </div>
+            <div class="card">
+              <img src="./images/time-icon.svg" alt="" />
+              <h4>Якісна підтримка</h4>
+              <span>Завжди онлайн 24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Recipes ===============-->
+    <section class="section recipes" id="recipes">
+      <h2>Спробуйте наші спеціальні рецепти</h2>
+      <div class="row container">
+        <div class="filters d-flex">
+          <span data-filter="All Product">Переглянути всі продукти</span>
+          <span data-filter="Fast Food">Швидка їжа</span>
+          <span data-filter="Rice Menu">Рисове меню</span>
+          <span data-filter="Desserts">Десерти</span>
+          <span data-filter="Coffee">Кава</span>
+          <span data-filter="Pizza">Піца</span>
+        </div>
+        <div class="products">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="products-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="image"><img src="./images/meat-2.svg" alt=""></div>
+                  <div class="rating">
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                    <span><i class="bx bxs-star"></i></span>
+                  </div>
+                  <h4>Хрустка смажена курка</h4>
+                  <div class="price">
+                    <span>Ціна</span><span class="color">$13.00</span>
+                  </div>
+                  <div class="button">Додати до кошика+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination">
+            <div class="custom-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Testimonials ===============-->
+    <section class="section testimonials" id="testimonials">
+      <div class="row container">
+        <div class="col">
+          <div class="card" data-filter="rosele">
+            <div class="d-flex">
+              <div class="image">
+                <img src="./images/profile-1.jpg" alt="" />
+              </div>
+              <div>
+                <h4>Illya Korshun</h4>
+                <span>Devoleper site</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col">
+          <h2>
+            Про мене <br />
+          </h2>
+            <div class="testimonial active" data-id="Illya">
+              <div class="d-flex">
+                <div>
+                  <h4>Illya Korshun</h4>
+                  <span>Devoleper site</span>
+                </div>
+
+                <div class="rating">
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                  <span><i class="bx bxs-star"></i></span>
+                </div>
+              </div>
+
+              <p>
+                “I'm 14, I'm studying html css and I wrote this site on it”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Footer ===============-->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+          <p>
+            Доставка їжі - це кур'єрська служба, в якій ресторан, магазин або незалежний постачальник їжі доставляє замовлення.
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-linkedin"></i></div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Компанія</h4>
+            <a href="">Про нас</a>
+            <a href="">Блог</a>
+            <a href="">Усі продукти</a>
+            <a href="">Карта розташування</a>
+          </div>
+          <div>
+            <h4>Послуги</h4>
+            <a href="">Відстеження замовлення</a>
+            <a href="">Список бажаного</a>
+            <a href="">Мій акаунт</a>
+            <a href="">Умови використання</a>
+          </div>
+          <div>
+            <h4>Підтримка</h4>
+            <a href="">Часто задавані питання</a>
+            <a href="">Політика</a>
+            <a href="">Бізнес</a>
+            <a href="">Кар'єра в підтримці</a>
+          </div>
+          <div>
+            <h4>Контакт</h4>
+            <a href="">WhatsApp</a>
+            <a href="">Підтримка 24/7</a>
+            <a href="">Швидкий чат</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <div class="row container d-flex">
+        <p>korsillua@gmail.co    © 2024 Illya</p>
+        <p>Devoleper Illya</p>
+      </div>
+    </div>
+
+    <!--=============== Swiper JS ===============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--=============== Custom JS ===============-->
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/products.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
