@@ -38,6 +38,12 @@ const ProductsWrapper = document.getElementById("products-wrapper");
 window.addEventListener("DOMContentLoaded", async function () {
   const products = await getProducts();
   displayProductItems(products);
+
+  // Update section title from "pizza" to "ice cream"
+  const sectionTitle = document.querySelector(".section-title");
+  if (sectionTitle) {
+    sectionTitle.textContent = "Ice Cream";
+  }
 });
 
 /* ========== Display Products =========== */
@@ -99,3 +105,4 @@ filters.forEach((filter) => {
     }
   });
 });
+

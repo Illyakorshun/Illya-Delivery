@@ -102,6 +102,8 @@ img {
 }
 .navbar .logo {
   justify-content: center;
+  width: 10px;
+  height: 10px;
 }
 .navbar .nav-list a {
   display: inline-block;

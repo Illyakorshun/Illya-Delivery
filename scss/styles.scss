@@ -93,12 +93,11 @@ img {
 /* ========== Header =========== */
 .header {
   min-height: 100vh;
-  background: linear-gradient(
-    45deg,
-    rgba(#f94a3d, 10%) 60%,
-    rgba(#ffe507, 10%)
-  );
+  background: linear-gradient(45deg,
+      rgba(#f94a3d, 10%) 60%,
+      rgba(#ffe507, 10%));
 }
+
 
 .navbar {
   padding: 2rem 0;
@@ -109,7 +108,10 @@ img {
 
   .logo {
     justify-content: center;
+    width: 10px;
+    height: 10px;
   }
+
 
   .nav-list a {
     display: inline-block;
@@ -119,6 +121,7 @@ img {
       margin-right: 0.5rem;
     }
   }
+
 
   .col form {
     background-color: var(--white-color);
@@ -367,6 +370,7 @@ img {
 
       h1 {
         font-size: 3rem;
+
         br {
           display: none;
         }
@@ -452,6 +456,7 @@ img {
 
     .checkbox {
       margin-bottom: 2rem;
+
       input {
         width: auto;
         margin-right: 0.5rem;
@@ -469,6 +474,7 @@ img {
 
     .links {
       margin-top: 2rem;
+
       span {
         display: block;
         margin-bottom: 1rem;
@@ -709,6 +715,7 @@ img {
         height: 15rem;
         width: 15rem;
         margin-bottom: 1.5rem;
+
         img {
           height: 100%;
           object-fit: contain;
@@ -960,6 +967,7 @@ img {
 
   .col:first-child {
     margin-left: 5rem;
+
     .circle {
       border-radius: 50%;
       height: 57rem;
@@ -1034,6 +1042,7 @@ img {
 
     .row {
       height: 100%;
+
       .col:first-child {
         display: none;
       }
@@ -1042,6 +1051,7 @@ img {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 90%;
+
         h2 {
           font-size: 3rem;
         }
@@ -1062,11 +1072,9 @@ img {
 
 /* ========== Footer =========== */
 .footer {
-  background: linear-gradient(
-    145deg,
-    rgba(#f94a3d, 10%) 60%,
-    rgba(#ffe507, 10%)
-  );
+  background: linear-gradient(145deg,
+      rgba(#f94a3d, 10%) 60%,
+      rgba(#ffe507, 10%));
   padding: 10rem 3rem 10rem;
 
   .row {
@@ -1132,6 +1140,7 @@ img {
 
   .row {
     justify-content: space-between;
+
     p {
       color: var(--white-color);
     }

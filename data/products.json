@@ -2,115 +2,108 @@
   "products": [
     {
       "id": 1,
-      "title": "Crispy Fried Chicken",
+      "title": "Курка",
       "price": "13.00",
-      "url": "./images/meat-2.svg",
+      "url": "./images/meat-2.jpg",
       "category": "Fast Food"
     },
     {
       "id": 2,
-      "title": "Burger Patty Recipe",
+      "title": "Бургер",
       "price": "15.00",
-      "url": "./images/burger.svg",
+      "url": "./images/burger.jpg",
       "category": "Fast Food"
     },
     {
       "id": 3,
-      "title": "Must-Try Dishes ",
+      "title": "Рис з куркою",
       "price": "12.00",
-      "url": "./images/dish-1.svg",
+      "url": "./images/dish-1.jpg",
       "category": "Rice Menu"
     },
     {
       "id": 4,
-      "title": "Tasty French Fries",
+      "title": "Картопля фрі",
       "price": "17.00",
-      "url": "./images/french-fries.svg",
+      "url": "./images/french-fries.png",
       "category": "Fast Food"
     },
     {
       "id": 5,
-      "title": "Toasted Bread",
+      "title": "Бутерброд",
       "price": "19.00",
-      "url": "./images/toastbread.png",
-      "category": "Desserts"
-    },
-    {
-      "id": 6,
-      "title": "Biscuit",
-      "price": "20.00",
-      "url": "./images/biscuit.png",
+      "url": "./images/toastbread.jpg",
       "category": "Fast Food"
     },
     {
+      "id": 6,
+      "title": "Бісквіт",
+      "price": "20.00",
+      "url": "./images/biscuit.png",
+      "category": "Desserts"
+    },
+    {
       "id": 7,
-      "title": "Ice Cream",
+      "title": "Морозиво",
       "price": "5.00",
-      "url": "./images/ice-cream.png",
+      "url": "./images/ice-cream.jpg",
       "category": "Desserts"
     },
     {
       "id": 8,
-      "title": "Ice Cream",
+      "title": "Лапша з куркою",
       "price": "12.00",
       "url": "./images/dish-1.png",
-      "category": "Desserts"
+      "category": "Rice Menu"
     },
     {
       "id": 9,
-      "title": "Ice Cream",
+      "title": "Рис з зеленю",
       "price": "12.00",
-      "url": "./images/dish-2.png",
+      "url": "./images/dish-2.jpg",
       "category": "Rice Menu"
     },
     {
       "id": 10,
-      "title": "Ice Cream",
+      "title": "Тако",
       "price": "12.00",
       "url": "./images/dish-3.png",
-      "category": "Desserts"
+      "category": "Fast Food"
     },
     {
       "id": 11,
-      "title": "Ice Cream",
+      "title": "Піца папероні",
       "price": "12.00",
       "url": "./images/dish-4.png",
       "category": "Pizza"
     },
     {
       "id": 12,
-      "title": "Ice Cream",
+      "title": "Кекс",
       "price": "12.00",
-      "url": "./images/dish-5.png",
+      "url": "./images/dish-5.jpg",
       "category": "Desserts"
     },
     {
       "id": 13,
-      "title": "Ice Cream",
+      "title": "Амерекано",
       "price": "12.00",
       "url": "./images/dish-6.png",
       "category": "Coffee"
     },
     {
       "id": 14,
-      "title": "Ice Cream",
+      "title": "Латте",
       "price": "12.00",
       "url": "./images/dish-7.png",
       "category": "Coffee"
     },
     {
       "id": 15,
-      "title": "Ice Cream",
+      "title": "Піца маргарита",
       "price": "12.00",
       "url": "./images/dish-8.png",
       "category": "Pizza"
-    },
-    {
-      "id": 16,
-      "title": "Ice Cream",
-      "price": "12.00",
-      "url": "./images/dish-9.png",
-      "category": "Desserts"
     }
   ]
 }
