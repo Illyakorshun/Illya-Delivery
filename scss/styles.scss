@@ -98,6 +98,13 @@ img {
       rgba(#ffe507, 10%));
 }
 
+.nav-list .signin {
+  display: none;
+}
+
+
+
+
 
 .navbar {
   padding: 2rem 0;
@@ -216,6 +223,11 @@ img {
 @media (max-width: 800px) {
   .navbar .col {
     display: none;
+
+    .hamburger.active+.nav-list .signin {
+      display: block;
+
+    }
   }
 
   .navbar .nav-list {

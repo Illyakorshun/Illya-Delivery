@@ -94,6 +94,13 @@ img {
   background: linear-gradient(45deg, rgba(249, 74, 61, 0.1) 60%, rgba(255, 229, 7, 0.1));
 }
 
+.nav-list .signin {
+  display: none;
+}
+
+
+
+
 .navbar {
   padding: 2rem 0;
 }
@@ -101,7 +108,9 @@ img {
   justify-content: space-between;
 }
 .navbar .logo {
-  justify-content: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
 }
 .navbar .nav-list a {
   display: inline-block;
@@ -196,6 +205,7 @@ img {
 @media (max-width: 800px) {
   .navbar .col {
     display: none;
+    }
   }
 
   .navbar .nav-list {
@@ -244,7 +254,7 @@ img {
   .navbar .logo img {
     width: 15rem;
   }
-}
+
 /* ========== Home =========== */
 .header .home {
   height: calc(100vh - 8.5rem);

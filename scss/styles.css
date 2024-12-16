@@ -94,6 +94,10 @@ img {
   background: linear-gradient(45deg, rgba(249, 74, 61, 0.1) 60%, rgba(255, 229, 7, 0.1));
 }
 
+.nav-list .signin {
+  display: none;
+}
+
 .navbar {
   padding: 2rem 0;
 }
@@ -201,6 +205,9 @@ img {
 @media (max-width: 800px) {
   .navbar .col {
     display: none;
+  }
+  .navbar .col .hamburger.active + .nav-list .signin {
+    display: block;
   }
   .navbar .nav-list {
     position: fixed;

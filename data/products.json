@@ -3,105 +3,105 @@
     {
       "id": 1,
       "title": "Курка",
-      "price": "13.00",
+      "price": "10.00",
       "url": "./images/meat-2.jpg",
       "category": "Fast Food"
     },
     {
       "id": 2,
       "title": "Бургер",
-      "price": "15.00",
-      "url": "./images/burger.jpg",
+      "price": "10.00",
+      "url": "./images/burger.avif",
       "category": "Fast Food"
     },
     {
       "id": 3,
       "title": "Рис з куркою",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-1.jpg",
       "category": "Rice Menu"
     },
     {
       "id": 4,
       "title": "Картопля фрі",
-      "price": "17.00",
-      "url": "./images/french-fries.png",
+      "price": "10.00",
+      "url": "./images/french-fries.svg",
       "category": "Fast Food"
     },
     {
       "id": 5,
       "title": "Бутерброд",
-      "price": "19.00",
-      "url": "./images/toastbread.jpg",
+      "price": "10.00",
+      "url": "./images/toastbread.png",
       "category": "Fast Food"
     },
     {
       "id": 6,
       "title": "Бісквіт",
-      "price": "20.00",
+      "price": "10.00",
       "url": "./images/biscuit.png",
       "category": "Desserts"
     },
     {
       "id": 7,
       "title": "Морозиво",
-      "price": "5.00",
-      "url": "./images/ice-cream.jpg",
+      "price": "10.00",
+      "url": "./images/ice-cream.png",
       "category": "Desserts"
     },
     {
       "id": 8,
       "title": "Лапша з куркою",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-1.png",
       "category": "Rice Menu"
     },
     {
       "id": 9,
       "title": "Рис з зеленю",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-2.jpg",
       "category": "Rice Menu"
     },
     {
       "id": 10,
       "title": "Тако",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-3.png",
       "category": "Fast Food"
     },
     {
       "id": 11,
       "title": "Піца папероні",
-      "price": "12.00",
-      "url": "./images/dish-4.png",
+      "price": "10.00",
+      "url": "./images/dish-4.jpg",
       "category": "Pizza"
     },
     {
       "id": 12,
       "title": "Кекс",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-5.jpg",
       "category": "Desserts"
     },
     {
       "id": 13,
       "title": "Амерекано",
-      "price": "12.00",
-      "url": "./images/dish-6.png",
+      "price": "10.00",
+      "url": "./images/dish-6.avif",
       "category": "Coffee"
     },
     {
       "id": 14,
       "title": "Латте",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-7.png",
       "category": "Coffee"
     },
     {
       "id": 15,
       "title": "Піца маргарита",
-      "price": "12.00",
+      "price": "10.00",
       "url": "./images/dish-8.png",
       "category": "Pizza"
     }
